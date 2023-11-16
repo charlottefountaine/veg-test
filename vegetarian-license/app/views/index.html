@@ -1,0 +1,20 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="Vegetarian license" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    {% include "govuk-prototype-kit/includes/homepage-top.njk" %}
+
+    <h1 class="govuk-heading-xl">
+      {{ veg }}
+    </h1>
+
+    {% include "govuk-prototype-kit/includes/homepage-bottom.njk" %}
+  </div>
+</div>
+
+{% endblock %}
